@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e06ea53-6078-4593-a800-9ba5593a60ff" name="Default Changelist" comment="" />
+    <list default="true" id="3e06ea53-6078-4593-a800-9ba5593a60ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/booklibrary/springboot/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booklibrary/springboot/controller/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/booklibrary/springboot/model/BookDetailsRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booklibrary/springboot/model/BookDetailsRequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/booklibrary/springboot/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booklibrary/springboot/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/booklibrary/springboot/service/DashboardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booklibrary/springboot/service/DashboardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/booklibrary/springboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booklibrary/springboot/service/UserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +40,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.4.RELEASE/spring-webmvc-5.2.4.RELEASE.jar!/" />
@@ -73,7 +82,7 @@
       <workItem from="1586596384775" duration="233000" />
       <workItem from="1586597352261" duration="630000" />
       <workItem from="1586679326359" duration="3317000" />
-      <workItem from="1587841969110" duration="25000" />
+      <workItem from="1587841969110" duration="6142000" />
     </task>
     <servers />
   </component>
@@ -98,6 +107,50 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="1725" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1587910927868">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1725" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587910927868" />
+    <state x="1723" y="408" key="Github.ShareDialog" timestamp="1587842093655">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1723" y="408" key="Github.ShareDialog/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587842093655" />
+    <state x="1601" y="226" key="Github.UntrackedFilesDialog" timestamp="1587842099420">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1601" y="226" key="Github.UntrackedFilesDialog/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587842099420" />
+    <state width="1081" height="218" key="GridCell.Tab.0.bottom" timestamp="1587916132355">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1081" height="218" key="GridCell.Tab.0.bottom/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587916132355" />
+    <state width="1081" height="218" key="GridCell.Tab.0.center" timestamp="1587916132355">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1081" height="218" key="GridCell.Tab.0.center/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587916132355" />
+    <state width="1081" height="218" key="GridCell.Tab.0.left" timestamp="1587916132354">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1081" height="218" key="GridCell.Tab.0.left/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587916132354" />
+    <state width="1081" height="218" key="GridCell.Tab.0.right" timestamp="1587916132355">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1081" height="218" key="GridCell.Tab.0.right/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587916132355" />
+    <state width="1081" height="218" key="GridCell.Tab.1.bottom" timestamp="1587916132355">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1081" height="218" key="GridCell.Tab.1.bottom/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587916132355" />
+    <state width="1081" height="218" key="GridCell.Tab.1.center" timestamp="1587916132355">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1081" height="218" key="GridCell.Tab.1.center/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587916132355" />
+    <state width="1081" height="218" key="GridCell.Tab.1.left" timestamp="1587916132355">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1081" height="218" key="GridCell.Tab.1.left/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587916132355" />
+    <state width="1081" height="218" key="GridCell.Tab.1.right" timestamp="1587916132355">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1081" height="218" key="GridCell.Tab.1.right/0.0.2560.1050/-1920.0.1536.834@0.0.2560.1050" timestamp="1587916132355" />
     <state x="1421" y="173" key="SettingsEditor" timestamp="1587841992900">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>

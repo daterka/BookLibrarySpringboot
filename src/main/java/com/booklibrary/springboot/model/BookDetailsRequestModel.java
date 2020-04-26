@@ -6,6 +6,13 @@ public class BookDetailsRequestModel {
     private String releasedDate;
     private String genre;
 
+    public BookDetailsRequestModel(String title, String author, String releasedDate, String genre) {
+        this.title = title;
+        this.author = author;
+        this.releasedDate = releasedDate;
+        this.genre = genre;
+    }
+
     public String getTitle() {
         return title;
     }

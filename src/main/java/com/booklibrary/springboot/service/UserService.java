@@ -22,6 +22,7 @@ public class UserService {
     }
 
     public UserModel getUserByLogin(String login){
+        System.out.println("log : UserService : getUserByLogin() with login : " + login);
         if(usersMap.containsKey(login)){
             return usersMap.get(login);
         }

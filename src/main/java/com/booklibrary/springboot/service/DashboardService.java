@@ -13,6 +13,7 @@ public class DashboardService {
     LinkedList<BookModel> books;
 
     public DashboardService() {
+        System.out.println("log : dashboardService constructor");
         this.books = new LinkedList<>();
         for(int i = 0; i < 10; i++){
             this.books.add(new BookModel(i, "title_field", "author_field", "released_date_field", "genre_field"));
@@ -44,7 +45,9 @@ public class DashboardService {
 
 
     public LinkedList<BookModel> saveBook(String title, String author, String releasedDate, String genre){
-        int new_book_id = this.books.indexOf(this.books.get(this.books.size()));
+        System.out.println("log : DashboardService : saveBook()");
+//        int new_book_id = this.books.indexOf(this.books.get(this.books.size()));
+        int new_book_id = this.books.size();
         this.books.add(new BookModel(new_book_id, title, author, releasedDate, genre));
         return this.books;
     }
@@ -64,6 +67,7 @@ public class DashboardService {
     }
 
     public BookModel deleteBookWithId(int id){
+        System.out.println("log : deleteBookWithId method");
         Optional<BookModel> bookItem = Optional.ofNullable(this.books.stream()
                 .filter(book -> id == book.getId())
                 .findAny()
@@ -73,7 +77,8 @@ public class DashboardService {
                                 ServiceErrorCode.BOOK_NOT_FOUND)));
 
         if(bookItem != null) {
-            this.books.remove(bookItem);
+            System.out.println("log : deleting book with id : " + id);
+            this.books.remove(bookItem.get());
         }
 
         return bookItem.orElse(null);
